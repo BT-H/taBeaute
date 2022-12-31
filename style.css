@@ -1,7 +1,9 @@
+<style> @import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Cabin&family=Lora:ital@0;1&display=swap'); </style>
+
 html {
   box-sizing: border-box;
   background: white;
-  font-family: 'helvetica neue';
+  font-family: "helvetica neue";
   font-size: 20px;
   font-weight: 200;
 }
@@ -10,54 +12,43 @@ body {
   margin: 0;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
-}
 
- site-wrap {
-  max-width: 700px;
-  margin: 70px auto;
-  background: white;
-  padding: 40px;
-  text-align: justify;
-  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);
-  transform: scale(0.98);
-  transition: transform 0.5s;
-}
 
-body.fixed-nav .site-wrap {
-  transform: scale(1);
-}
+
+
+
 
 header {
   background: url(logo.jpg) center no-repeat;
-  background-size:contain;
+  background-size: contain;
   display: flex;
   justify-content: center;
   max-width: 100%;
-  background-color: #FAF3ED;
+  max-height: 40vh;
+  background-color: #faf3ed;
+  padding: 10px;
 }
 
  {
-  color: #E4A09D;
+  color: #e4a09d;
   font-size: 15vh;
-  text-shadow: 3px 2px 0 rgba(0,0,0,0.2);
+  text-shadow: 3px 2px 0 rgba(0, 0, 0, 0.2);
   justify-content: left;
   display: flex;
 }
 
 nav {
-  background: #CF918F;
+  background: #cf918f;
   top: 0;
   width: 100%;
-  transition:all 0.5s;
+  transition: all 0.5s;
   position: relative;
   z-index: 1;
 }
 
 body.fixed-nav nav {
   position: fixed;
-  box-shadow: 0 5px 0 rgba(0,0,0,0.1);
+  box-shadow: 0 5px 0 rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
@@ -102,6 +93,59 @@ nav a {
   text-transform: uppercase;
 }
 
-.container-xl {
-  background-color: bisque;
+
+
+
+
+
+.title1 {
+  display: flex;
+    background-color: bisque;
+    font-family: 'Bonheur Royale', cursive;
+    font-size: 90px;  
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    white-space: nowrap;
+    align-items:center;
+    justify-content: center;
+  
+}
+
+.title2 {
+  display: flex;
+    background-color: bisque;
+    font-family: 'Bonheur Royale', cursive;
+    font-size: 80px;  
+    margin-left: 10%;
+    margin-right: 10%;
+    white-space: nowrap;
+    align-items:center;
+    justify-content: center;
+  
+}
+
+.dashboard {
+  display: flex;
+    background-color: bisque;
+    font-family: 'cabin', sans-serif;
+    font-size: 50px;  
+    margin-top: 50px;
+    margin-left: 50px;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    max-width: 400px;
+    flex-wrap: nowrap;
+}
+
+.dashboardSub {
+  display: flex;
+    background-color: bisque;
+    font-family: 'cabin', sans-serif;
+    font-size: 25px;  
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 50%;
+    flex-wrap: nowrap;
 }
