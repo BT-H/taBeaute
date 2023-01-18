@@ -1,31 +1,64 @@
 @import url("https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Cabin&family=Lora:ital@0;1&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700");
 
+/*font-family: 'Bonheur Royale', cursive;
+font-family: 'Cabin', sans-serif;*/
+html{
+  font-family: 'Cabin', sans-serif;
+  font-size: 18px;
+}
+
 .nav-row{
   display: flex;
-  width: 100em;
-  border:solid;
-  justify-content: space-evenly
-  
-}
-.row{
-  display:flex;
-  padding-left: 20px;
-  padding-right: auto;
- 
+  width: 100%;
+  justify-content: space-evenly;
+  background-color: #FAF3ED;
 }
 
 .header-container-fluid {
-  display: flex;
+display: flex;
  flex-direction: row;
  justify-content: center;
  align-items: center;
- padding-top: 40px;
- padding-bottom: 20px;
  background-color:#FAF3ED ;
  font-size: 70px;
- 
  font-family: 'Bonheur Royale', cursive;
+}
+.container-main{
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+  background-color: beige;
+}
+
+.container-hero {
+  padding-top: 50px;
+  display: flex;
+  max-width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  background: linear-gradient(#FAF3ED, 90%, white);
+  }
 
 
+.hero {
+  display: flex;
+  font-family: 'Cabin', sans-serif;
+  background-color: red;
+}
+
+.hero-right {
+  display: flex;
+  background-color:;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px;
+}
+.box1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Bonheur Royale', cursive;
 }
